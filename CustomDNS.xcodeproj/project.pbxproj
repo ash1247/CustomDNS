@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBD2B122CC411F000F56DB8 /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBD2B112CC411F000F56DB8 /* Vapor */; };
+		3BBD2B152CC4122A00F56DB8 /* DNSClient in Frameworks */ = {isa = PBXBuildFile; productRef = 3BBD2B142CC4122A00F56DB8 /* DNSClient */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0162CC2CC14CFD0085E6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0162B32CC14CFB0085E6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0162BA2CC14CFB0085E6BF;
+			remoteInfo = CustomDNS;
+		};
+		3B0162D62CC14CFD0085E6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0162B32CC14CFB0085E6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0162BA2CC14CFB0085E6BF;
+			remoteInfo = CustomDNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0162BB2CC14CFB0085E6BF /* CustomDNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0162CB2CC14CFD0085E6BF /* CustomDNSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDNSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0162D52CC14CFD0085E6BF /* CustomDNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3BA2C9DC2CC3DEEA004C9E2B /* Exceptions for "CustomDNS" folder in "CustomDNS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3B0162BA2CC14CFB0085E6BF /* CustomDNS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B0162BD2CC14CFB0085E6BF /* CustomDNS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3BA2C9DC2CC3DEEA004C9E2B /* Exceptions for "CustomDNS" folder in "CustomDNS" target */,
+			);
+			path = CustomDNS;
+			sourceTree = "<group>";
+		};
+		3B0162CE2CC14CFD0085E6BF /* CustomDNSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomDNSTests;
+			sourceTree = "<group>";
+		};
+		3B0162D82CC14CFD0085E6BF /* CustomDNSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomDNSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0162B82CC14CFB0085E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBD2B122CC411F000F56DB8 /* Vapor in Frameworks */,
+				3BBD2B152CC4122A00F56DB8 /* DNSClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162C82CC14CFD0085E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162D22CC14CFD0085E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0162B22CC14CFB0085E6BF = {
+			isa = PBXGroup;
+			children = (
+				3B0162BD2CC14CFB0085E6BF /* CustomDNS */,
+				3B0162CE2CC14CFD0085E6BF /* CustomDNSTests */,
+				3B0162D82CC14CFD0085E6BF /* CustomDNSUITests */,
+				3B0162BC2CC14CFB0085E6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0162BC2CC14CFB0085E6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0162BB2CC14CFB0085E6BF /* CustomDNS.app */,
+				3B0162CB2CC14CFD0085E6BF /* CustomDNSTests.xctest */,
+				3B0162D52CC14CFD0085E6BF /* CustomDNSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0162BA2CC14CFB0085E6BF /* CustomDNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0162DF2CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNS" */;
+			buildPhases = (
+				3B0162B72CC14CFB0085E6BF /* Sources */,
+				3B0162B82CC14CFB0085E6BF /* Frameworks */,
+				3B0162B92CC14CFB0085E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3B0162BD2CC14CFB0085E6BF /* CustomDNS */,
+			);
+			name = CustomDNS;
+			packageProductDependencies = (
+				3BBD2B112CC411F000F56DB8 /* Vapor */,
+				3BBD2B142CC4122A00F56DB8 /* DNSClient */,
+			);
+			productName = CustomDNS;
+			productReference = 3B0162BB2CC14CFB0085E6BF /* CustomDNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B0162CA2CC14CFD0085E6BF /* CustomDNSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0162E22CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNSTests" */;
+			buildPhases = (
+				3B0162C72CC14CFD0085E6BF /* Sources */,
+				3B0162C82CC14CFD0085E6BF /* Frameworks */,
+				3B0162C92CC14CFD0085E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0162CD2CC14CFD0085E6BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B0162CE2CC14CFD0085E6BF /* CustomDNSTests */,
+			);
+			name = CustomDNSTests;
+			packageProductDependencies = (
+			);
+			productName = CustomDNSTests;
+			productReference = 3B0162CB2CC14CFD0085E6BF /* CustomDNSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B0162D42CC14CFD0085E6BF /* CustomDNSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0162E52CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNSUITests" */;
+			buildPhases = (
+				3B0162D12CC14CFD0085E6BF /* Sources */,
+				3B0162D22CC14CFD0085E6BF /* Frameworks */,
+				3B0162D32CC14CFD0085E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0162D72CC14CFD0085E6BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B0162D82CC14CFD0085E6BF /* CustomDNSUITests */,
+			);
+			name = CustomDNSUITests;
+			packageProductDependencies = (
+			);
+			productName = CustomDNSUITests;
+			productReference = 3B0162D52CC14CFD0085E6BF /* CustomDNSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0162B32CC14CFB0085E6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3B0162BA2CC14CFB0085E6BF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3B0162CA2CC14CFD0085E6BF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3B0162BA2CC14CFB0085E6BF;
+					};
+					3B0162D42CC14CFD0085E6BF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3B0162BA2CC14CFB0085E6BF;
+					};
+				};
+			};
+			buildConfigurationList = 3B0162B62CC14CFB0085E6BF /* Build configuration list for PBXProject "CustomDNS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B0162B22CC14CFB0085E6BF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3BBD2B102CC411F000F56DB8 /* XCRemoteSwiftPackageReference "vapor" */,
+				3BBD2B132CC4122A00F56DB8 /* XCRemoteSwiftPackageReference "DNSClient" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B0162BC2CC14CFB0085E6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0162BA2CC14CFB0085E6BF /* CustomDNS */,
+				3B0162CA2CC14CFD0085E6BF /* CustomDNSTests */,
+				3B0162D42CC14CFD0085E6BF /* CustomDNSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0162B92CC14CFB0085E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162C92CC14CFD0085E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162D32CC14CFD0085E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0162B72CC14CFB0085E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162C72CC14CFD0085E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0162D12CC14CFD0085E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B0162CD2CC14CFD0085E6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0162BA2CC14CFB0085E6BF /* CustomDNS */;
+			targetProxy = 3B0162CC2CC14CFD0085E6BF /* PBXContainerItemProxy */;
+		};
+		3B0162D72CC14CFD0085E6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0162BA2CC14CFB0085E6BF /* CustomDNS */;
+			targetProxy = 3B0162D62CC14CFD0085E6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B0162DD2CC14CFD0085E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B0162DE2CC14CFD0085E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0162E02CC14CFD0085E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDNS/App/Preview Content\"";
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomDNS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.customdns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B0162E12CC14CFD0085E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDNS/App/Preview Content\"";
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomDNS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.customdns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B0162E32CC14CFD0085E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomDNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDNS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomDNS";
+			};
+			name = Debug;
+		};
+		3B0162E42CC14CFD0085E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomDNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDNS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomDNS";
+			};
+			name = Release;
+		};
+		3B0162E62CC14CFD0085E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomDNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDNS;
+			};
+			name = Debug;
+		};
+		3B0162E72CC14CFD0085E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TR2QCX9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomDNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDNS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0162B62CC14CFB0085E6BF /* Build configuration list for PBXProject "CustomDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0162DD2CC14CFD0085E6BF /* Debug */,
+				3B0162DE2CC14CFD0085E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0162DF2CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0162E02CC14CFD0085E6BF /* Debug */,
+				3B0162E12CC14CFD0085E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0162E22CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0162E32CC14CFD0085E6BF /* Debug */,
+				3B0162E42CC14CFD0085E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0162E52CC14CFD0085E6BF /* Build configuration list for PBXNativeTarget "CustomDNSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0162E62CC14CFD0085E6BF /* Debug */,
+				3B0162E72CC14CFD0085E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BBD2B102CC411F000F56DB8 /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.106.0;
+			};
+		};
+		3BBD2B132CC4122A00F56DB8 /* XCRemoteSwiftPackageReference "DNSClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/DNSClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BBD2B112CC411F000F56DB8 /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BBD2B102CC411F000F56DB8 /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+		3BBD2B142CC4122A00F56DB8 /* DNSClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BBD2B132CC4122A00F56DB8 /* XCRemoteSwiftPackageReference "DNSClient" */;
+			productName = DNSClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B0162B32CC14CFB0085E6BF /* Project object */;
+}
